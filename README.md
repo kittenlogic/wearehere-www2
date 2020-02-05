@@ -11,4 +11,5 @@ for [GENDER: Shaping and Breaking the Binary](https://london.sciencegallery.com/
 ### Start Game
 
 Press Any Key to start.
+
 Press 1, 2 or 3 on your keyboard to navigate the archive.
