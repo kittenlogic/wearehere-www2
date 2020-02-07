@@ -125,7 +125,13 @@ marquee {
   text-decoration: none;
   cursor: pointer;
 }
-
+#setup,
+#mobile {
+  background-image: url(../img/intro.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 #loading {
   display: flex;
   align-items: center;

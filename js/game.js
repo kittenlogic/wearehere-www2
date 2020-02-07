@@ -220,7 +220,7 @@ function playScene(id){
 }
 
 function gameOptions(){
-    keyboardJS.bind('', initGame);
+  keyboardJS.bind('', initGame);
 }
 
 function bindKeys(){
@@ -260,7 +260,7 @@ function updateQueue(key){
 
 function stopReset(){
   clearTimeout(restartGame);
-  console.log("auto reset disabled");
+  console.log("auto-reset disabled");
 }
 
 function resetGame(){
@@ -313,7 +313,7 @@ function gameOver(){
 }
 
 $( document ).ready(function() {
-
+   // mobile + tablet check
    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
      $('.container').remove();
      $('#mobile').css( "display", "flex" );
@@ -337,5 +337,4 @@ $( document ).ready(function() {
      );
      gameOptions();
    }
-
 });
