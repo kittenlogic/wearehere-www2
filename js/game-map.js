@@ -163,7 +163,7 @@ var game = {
   },
   10: {
     id: "resurrect-yes",
-    type: "advanceto",
+    type: "playing",
     options: [
       {
         1: "resurrect-one",
